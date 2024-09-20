@@ -49,3 +49,50 @@ ion-icon{
         margin-left: 1em;
     }
 }
+.main-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+input{
+    
+    font-size: 1.5rem;
+    padding: 1em;
+    width: 3em;
+    border: 2px solid rgb(0, 154, 0);
+    border-radius: 5px;
+}
+.check-btn{
+    padding: .7em;
+    width: 7em;
+    margin-top: 2em;
+    background: rgb(0, 154, 0);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+}
+.check-btn:hover{
+    background: rgb(0, 106, 0);
+}
+.score{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.verdict{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.upper-bound-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.upper-bound-btn{
+    margin-top: 1em;
+}
