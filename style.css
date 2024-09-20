@@ -1,0 +1,51 @@
+
+
+body{
+    background: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Montserrat" ;
+
+}
+.get-started-btn{
+    background: rgb(0, 154, 0);
+    padding: .6em 1em;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    width: 10em;
+    
+}
+.get-started-btn:hover{
+    background: rgb(0, 106, 0);
+    
+
+}
+ion-icon{
+    animation-name: forwads-backy;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes forwads-backy{
+    0%{
+        margin-left: -1em;
+
+    }
+  
+    100%{
+        margin-left: 1em;
+    }
+}
